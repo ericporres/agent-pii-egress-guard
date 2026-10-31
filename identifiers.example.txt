@@ -1,0 +1,11 @@
+# Copy this file to identifiers.txt (git-ignored) and replace the examples
+# with your own details. One per line. Matching is case-insensitive and also
+# catches URL-encoded and base64-encoded copies.
+#
+# Full name (use the full name, not just a surname that appears in your domain or paths)
+Jane Doe
+# Every email address an agent might know
+jane.doe@example.com
+jane@doe-family.example
+# Phone numbers: prefix with phone: (any format; US 10-digit matching)
+phone:555-010-4477

@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^Bash$|^mcp__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.codex/hooks/agent-pii-egress-guard/guard.py",
+            "timeout": 10,
+            "statusMessage": "Checking outbound request for personal data"
+          }
+        ]
+      }
+    ]
+  }
+}
