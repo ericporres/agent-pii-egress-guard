@@ -120,7 +120,7 @@ agent-pii-egress-guard/
 
 ## Background
 
-[Steven Liss posted on X](https://x.com/This_Liss/status/2113120507289624714) on October 22, 2026 that Claude Code was putting personal data in HTTP headers because the sites it curled "politely asked agents to identify their users." Someone shared it in one of my WhatsApp groups. I checked my own setup that morning, reproduced the problem, and built this. The write-up is on [Beyond Reason](https://promptedbyeric.substack.com).
+[Steven Liss posted on X](https://x.com/This_Liss/status/2113120507289624714) on October 22, 2026 that Claude Code was putting personal data in HTTP headers because the sites it curled "politely asked agents to identify their users." Someone shared it in one of my WhatsApp groups. I checked my own setup the next morning, reproduced the problem, and built this. The write-up is on [Beyond Reason](https://promptedbyeric.substack.com).
 
 Same idea as my [family-assistant-skill](https://github.com/ericporres/family-assistant-skill): the repo holds the structure, and your details stay on your machine.
 
